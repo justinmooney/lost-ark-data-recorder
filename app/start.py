@@ -211,7 +211,7 @@ def record_page():
         
         # chaos infinite grind
         case 1:
-            categories = ('currency_orbs', 'currency_shards', 'red', 'blue', 'stones')
+            categories = ('currency_orbs', 'currency_shards', 'red', 'blue')
             num_categories = len(categories)
             start_values = {}
             f1_values = {}
