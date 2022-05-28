@@ -5,7 +5,6 @@ from pathlib import Path
 from matplotlib import pyplot as plt
 
 import pandas as pd
-from pyparsing import Char
 import streamlit as st
 from streamlit_option_menu import option_menu
 
@@ -175,7 +174,7 @@ def record_page():
         # chaos w/ aor
         case 0:
             start_values, end_values = {}, {}
-            categories = ('red', 'blue', 'stones', 'shards')
+            categories = ('red', 'blue', 'leapstones', 'greater_leapstones' 'shards')
             num_categories = len(categories)
 
             with st.form('chaos_dng_aor_form', clear_on_submit=True):
@@ -264,7 +263,7 @@ def record_page():
         # guardian raid
         case 2:
             start_values, end_values = {}, {}
-            categories = ('red', 'blue', 'stones')
+            categories = ('red', 'blue', 'leapstones', 'greater_leapstones')
             num_categories = len(categories)
                         
             with st.form('gr_form', clear_on_submit=True):
