@@ -9,6 +9,9 @@ I've used Streamlit for some simple dashboarding before but I wanted to try and 
 $> streamlit run app/start.py
 ```
 
+## To reset data:
+Just delete all the lines out of the `data/histories` csvs (except the header line).
+
 ## Some screenshots:
 
 ### Register and Modify Characters
