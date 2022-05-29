@@ -174,7 +174,7 @@ def record_page():
         # chaos w/ aor
         case 0:
             start_values, end_values = {}, {}
-            categories = ('red', 'blue', 'leapstones', 'greater_leapstones' 'shards')
+            categories = ('red', 'blue', 'leapstones', 'greater_leapstones', 'shards')
             num_categories = len(categories)
 
             with st.form('chaos_dng_aor_form', clear_on_submit=True):
